@@ -1,0 +1,60 @@
+\documentclass{article}
+%include packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\bibliographystyle{alpha}
+\begin{document}
+
+\title{SQ500 exam: The efficient and traceable deployment of container software in a large-scale environment}
+\author{Yves Torsten Staudenmaier (1754294)}
+\maketitle
+
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+
+\section{Interest, topic and research question}
+\subsection{Interest}
+I am interested in Continuous Integration (CI) and Continuous Delivery (CD) strategies in large-scale environments like huge companies -- especially in the field of highly available systems.
+\subsection{Topic}
+The topic of this paper will be the efficient and traceable deployment of container software in a large-scale environment. This includes several subtopics like fundamentals of software deployment and container software as well as fundamentals of large-scale environments. \par
+In order to structure this topic a little further, there will be three focus (sub-)topics: This first one is about the improvement of quality and quantity of software releases. The second one has a focus on data which will be received through expert and customer surveys. The last one addresses the focus on tools which will be about testing and verifying the used deployment pipeline. 
+\subsection{Research question}
+The research questions that will be addressed in this paper are a direct consequence of the objective of the work and from the requirements for a process that is as fully automated. The focus lies on the consideration of both disciplines of Business Informatics, namely Computer Science and Economics. However, the larger part of this work will have an Computer Science focus. The following research question will be discussed: "Improvement of quality and quantity of software releases: How to improve software quality and reliability by streamlining the software deployment process?"
+
+
+\section{Literature overview}
+%TODO: ◦ … cite 5 or more sources, at least one book and one journal article among them
+% ◦ … give context for each citation, i.e. include the citations in continuous text
+% ◦ … include a bibliography
+%◦ … make sure that the references contain all relevant information
+
+\section{Formula and table}
+Let $\theta$ be the parameters of a model and $L$ the loss function. "So the goal is to find the set of weights which minimizes the loss function, averaged over all examples:"\cite[p.~83]{jurafskySpeechLanguageProcessing2014} This is equation will be solved with a method called gradient descent.
+\begin{equation}
+	\hat{\theta} = \underset{\theta}{\mathrm{argmin}} \frac{1}{m} \sum_{i=1}^{m}L_{CE}(f(x^{(i)}; \theta),y^{(i)})
+	\label{eq:gradient-descent}
+\end{equation}
+
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{@{}ll@{}}
+		\toprule
+		Weekday & Temperature \\
+		\midrule
+		Monday & 13.5 \\
+		Tuesday & 18.5 \\ \bottomrule
+	\end{tabular}
+	\caption{Temperature [in Celsius] values for weekdays}
+	\label{tab:my-table1}
+\end{table}
+
+In table \ref{tab:my-table1}, there is the mean temperature of the week days in April shown. 
+
+\newpage
+\bibliography{references}
+\end{document}
