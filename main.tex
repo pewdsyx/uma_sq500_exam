@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{csquotes} % beautiful quotations
 
 \bibliographystyle{alpha}
 \begin{document}
@@ -23,7 +24,7 @@ I am interested in Continuous Integration (CI) and Continuous Delivery (CD) stra
 The topic of this paper will be the efficient and traceable deployment of container software in a large-scale environment. This includes several subtopics like fundamentals of software deployment and container software as well as fundamentals of large-scale environments. \par
 In order to structure this topic a little further, there will be three focus (sub-)topics: This first one is about the improvement of quality and quantity of software releases. The second one has a focus on data which will be received through expert and customer surveys. The last one addresses the focus on tools which will be about testing and verifying the used deployment pipeline. 
 \subsection{Research question}
-The research questions that will be addressed in this paper are a direct consequence of the objective of the work and from the requirements for a process that is as fully automated. The focus lies on the consideration of both disciplines of Business Informatics, namely Computer Science and Economics. However, the larger part of this work will have an Computer Science focus. The following research question will be discussed: "Improvement of quality and quantity of software releases: How to improve software quality and reliability by streamlining the software deployment process?"
+The research questions that will be addressed in this paper are a direct consequence of the objective of the work and from the requirements for a process that is as fully automated. The focus lies on the consideration of both disciplines of Business Informatics, namely Computer Science and Economics. However, the larger part of this work will have an Computer Science focus. The following research question will be discussed: Improvement of quality and quantity of software releases: How to improve software quality and reliability by streamlining the software deployment process?
 
 
 \section{Literature overview}
@@ -31,6 +32,8 @@ The research questions that will be addressed in this paper are a direct consequ
 % ◦ … give context for each citation, i.e. include the citations in continuous text
 % ◦ … include a bibliography
 %◦ … make sure that the references contain all relevant information
+First, we have to consider the term of cloud computing which is indeed not uniformly defined. The definition which we consider in this paper is as follows: \enquote{cloud computing [sic!] is a kind of computing technique where IT services are provided by massive low-cost computing units connected by IP networks.}\cite[p.~627]{qianCloudComputingOverview2009} This leads to broad perspective of what cloud computing really is. 
+%TODO use a book for a second def of cc
 
 \section{Formula and table}
 Let $\theta$ be the parameters of a model and $L$ the loss function. "So the goal is to find the set of weights which minimizes the loss function, averaged over all examples:"\cite[p.~83]{jurafskySpeechLanguageProcessing2014} This is equation will be solved with a method called gradient descent.
